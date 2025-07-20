@@ -172,7 +172,7 @@ echo;
 read -p "WOULD YOU LIKE TO RETURN TO THE MENU? (y/n): " ANSWER;
 if [ "$ANSWER" = y ]
 then
-    sudo bash /home/user/Scripts/update.sh;
+    sudo bash update.sh;
 fi
 if [ "$ANSWER" = n ]
 then
